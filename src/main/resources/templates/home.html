@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::Layout(~{::section})">
+<head>
+<meta charset="utf-8">
+<title>This is my Home Page</title>
+</head>
+<body>
+	<section class="Om d-flex justify-content-center align-items-center">
+		<div class="text-center">
+		<h1 class="font-weight-bold">ARBO HQ</h1>
+		<p>
+		Hey users welcome to ArboHQ. This is a startup product based company.
+		Here you will get cool culture as well as supportive environment along with 
+		nice temprament.
+		</p>
+		<a class="btn bg-primary btn-lg text-white" th:href="@{/signin}">Go Ahead--></a>
+		</div>
+	</section>
+</body>
+</html>
